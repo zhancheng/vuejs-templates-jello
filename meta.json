@@ -1,0 +1,19 @@
+{
+prompts: {
+name: {
+type: "string",
+required: true,
+message: "Project name"
+},
+description: {
+type: "string",
+required: false,
+message: "Project description",
+default: "A Vue.js project"
+},
+author: {
+type: "string",
+message: "Author"
+},
+completeMessage: "To get started: cd {{destDirName}} npm install npm run dev Documentation can be found at https://github.com/zhancheng/vuejs-templates-jello"
+}
